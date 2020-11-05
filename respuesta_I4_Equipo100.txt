@@ -31,6 +31,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Conflicto por superposición de datos.
 
 H - ¿Qué sucede si cada uno utiliza el push -f?
+Si cada uno utiliza el push -f, en el repositorio remoto se fuerza a reemplazar las líneas de código que generan conflicto.
 
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18, 19 y 20 en DESARROLLO?
 Lo que se podría hacer es que cada uno tenga en su rama TESTING su <p> y luego se hagan merge con la rama DESARROLLO.
