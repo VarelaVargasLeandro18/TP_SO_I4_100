@@ -1,0 +1,13 @@
+Varela Vargas Leandro Gastón y Guillermo José Ríos Arrazabal:
+
+A- ¿Qué color de fondo tiene su página en el TESTING?
+El color de fondo de la página en la rama TESTING es blue (azul).
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO?
+El color de fondo de la página en la rama DESARROLLO es yellow (amarillo).
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+El color de fondo de la página en la rama MASTER (main) es blue (azul).
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+El favicon que quedó en el MASTER (main) es el de BETA.
