@@ -11,3 +11,31 @@ El color de fondo de la página en la rama MASTER (main) es blue (azul).
 
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 El favicon que quedó en el MASTER (main) es el de BETA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Sí, BETA.
+
+F - ¿Qué problemas surgieron? 
+
+$ git push To 
+https://github.com/VarelaVargasLeandro18/TP_SO_I4_100.git
+ ! [rejected] TESTING -> TESTING (fetch first)
+error: failed to push some refs to 
+'https://github.com/VarelaVargasLeandro18/TP_SO_I4_100.git' hint: 
+Updates were rejected because the remote contains work that you do hint: 
+not have locally. This is usually caused by another repository pushing 
+hint: to the same ref. You may want to first integrate the remote 
+changes hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Conflicto por superposición de datos.
+
+H - ¿Qué sucede si cada uno utiliza el push -f?
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18, 19 y 20 en DESARROLLO?
+Lo que se podría hacer es que cada uno tenga en su rama TESTING su <p> y luego se hagan merge con la rama DESARROLLO.
+	Es decir, cada uno tiene su testing con su elemento <p>.
+	Luego, hacen merge con DESARROLLO y hacen push de DESARROLLO.
+	DESARROLLO va a entrar en conflicto, por lo que tendrán que descargar los cambios.
+	Hacen el merge de TESTING con DESARROLLO nuevamente dejando ambos cambios.
+
